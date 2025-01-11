@@ -25,6 +25,7 @@ The system uses:
 1. Clone the repository:
 ```bash
 git clone https://github.com/sujikathir/Multilingual-Customer-Support-using-Sagemaker.git
+```
 
 ## 2. Install dependencies:
 
