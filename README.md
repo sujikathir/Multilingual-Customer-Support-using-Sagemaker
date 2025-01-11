@@ -31,6 +31,7 @@ git clone https://github.com/sujikathir/Multilingual-Customer-Support-using-Sage
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## 3. Configuration
 
@@ -45,28 +46,37 @@ Adapter settings
 
 - Initialize SageMaker resources:
 
+```bash
 python sagemaker_setup.py
-
+```
 - Verify the setup:
 
+```bash
 python test_access.py
+```
 
 - Test the endpoint:
 
+```bash
 python test_endpoint.py
+```
 
 ## 5. Usage
 
 Example of processing a customer query:
+```bash
 from inference_handler import CustomerSupportInference
 
 handler = CustomerSupportInference()
 response = handler.process_query("Hola, necesito ayuda técnica")
 print(response)
+```
 
 ## 6. Resource Management
 Clean up resources when done:
+```bash
 python cleanup.py
+```
 
 ## 7. Cost Optimization
 
