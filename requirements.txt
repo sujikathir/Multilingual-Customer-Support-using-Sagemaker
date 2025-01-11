@@ -1,0 +1,11 @@
+# File: multilingual-support/requirements.txt
+
+boto3>=1.26.0
+sagemaker>=2.175.0
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+pandas>=2.0.0
+pyyaml>=6.0
+python-dotenv>=1.0.0
+huggingface-hub
