@@ -87,9 +87,9 @@ python cleanup.py
 
 ## 8. Performance
 
-Response time: ~2-3 seconds per query
-Concurrent requests: Up to 4 per GPU
-Memory usage: ~24GB GPU memory
-Cost: ~70% lower than traditional deployment
+- Response time: ~2-3 seconds per query
+- Concurrent requests: Up to 4 per GPU
+- Memory usage: ~24GB GPU memory
+- Cost: ~70% lower than traditional deployment
 
 
