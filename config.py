@@ -6,7 +6,7 @@ from typing import Dict, Any
 # AWS Configuration
 AWS_CONFIG = {
     'region': os.getenv('AWS_REGION', 'us-east-2'),
-    'role_arn': os.getenv('AWS_ROLE_ARN', 'arn:aws:iam::387311887840:role/service-role/AmazonSageMaker-ExecutionRole-20241216T145914'),  # You'll need to set this
+    'role_arn': os.getenv('AWS_ROLE_ARN', 'arn:aws:iam::**********:role/service-role/AmazonSageMaker-ExecutionRole'),  # You'll need to set this
 }
 
 # Base Model Configuration
@@ -53,7 +53,7 @@ SAGEMAKER_CONFIG = {
         'MAX_ROLLING_BATCH_SIZE': '32',
         'MAX_INPUT_LENGTH': '2048',
         'MAX_TOTAL_TOKENS': '4096',
-        'HUGGING_FACE_HUB_TOKEN': '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', # Your Hugging Face Access token
+        'HUGGING_FACE_HUB_TOKEN': '**********', # Your Hugging Face Access token
         'DTYPE': 'fp16'
     }
 }
